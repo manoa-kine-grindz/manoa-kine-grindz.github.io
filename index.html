@@ -1,73 +1,106 @@
 <!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Manoa kine grindz by manoa-kine-grindz</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/github-dark.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/manoa-kine-grindz">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
 
-  <title>Manoa kine grindz</title>
-  <meta name="description" content="">
+    <div class="wrapper">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Manoa kine grindz</h1>
-    </header>
-    <div id="container">
-      <p class="tagline"></p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/manoa-kine-grindz" class="code">View Manoa kine grindz on GitHub</a>
+      <section>
+        <div id="title">
+          <h1>Manoa kine grindz</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/manoa-kine-grindz">manoa-kine-grindz</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h2>
+
+        <h2>
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>Manoa Kine Grindz is a reactive web-app that allows UH students to be able to quickly find what food is currently being served on campus.</p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 
+<p>Clone the system over at <a href="https://github.com/manoa-kine-grindz/manoa-kine-grindz">https://github.com/manoa-kine-grindz/manoa-kine-grindz</a> and run it on your computer using</p>
+
+<pre><code>meteor --settings ..config/settings.development.json
+</code></pre>
+
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>The landing page should look as such:</p>
+
+<p><img src="./images/landing1.jpg" alt=""></p>
+
+<p>Click on the top right word, "Account," to log in. The system uses UH-CAS for authentication so all students and faculty within the UH system should be able to log-in without having to create an account.</p>
+
+<p><img src="./images/logging.jpg" alt="">
+<br>
+<sub>Logging in.</sub></p>
+
+<p>Once logged in, users can view and edit their profile. However, it is currently in the process of being debugged and as such it does not work right now.</p>
+
+<p><img src="./images/profile.jpg" alt="">
+<br>
+<sub>The blank page.</sub></p>
+
+<p>Also, because the databases have not yet been implemented, the Menu page is also fairly empty and the home page after logging in is still blank.</p>
+
+<p><img src="./images/landing2.jpg" alt="">
+<br>
+<sub>Home page after logging in.</sub>
+<br>
+<img src="./images/menu.jpg" alt="">
+<br>
+<sub>Menu page.</sub></p>
+
+<p>There is a calendar page that will be maintained by admins and will allow people to see what type of food will be served today and in the coming future. As implementing the specials is not a high priority item right now, the calendar is also blank.</p>
+
+<p><img src="./images/calendar.jpg" alt=""></p>
+
+<p>Lastly, the Map page will show users where what food trucks are where. It will implement markers placed by the admins, but as admin privileges have not yet been implemented, it does not work. Also, the meteor package we used is outdated and does not work with the most recent build of meteor so we are currently finding a replacement.</p>
+
+<p><img src="./images/map.jpg" alt="">
+<br>
+<sub>The URL bar was included to show that there is a page for the map.</sub></p>
 
 <h2>
 <a id="development" class="anchor" href="#development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development</h2>
 
+<h1>
+<a id="strugglez" class="anchor" href="#strugglez" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>strugglez</h1>
+
 <h2>
 <a id="contact-us" class="anchor" href="#contact-us" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact Us</h2>
-        </article>
-      </div>
+
+<p>If you have any questions, shoot us an email at <a href="mailto:mahoe7@hawaii.edu">mahoe7@hawaii.edu</a></p>
+      </section>
+
     </div>
-    <footer>
-      <div class="owner">
-
-      <p><a href="https://github.com/manoa-kine-grindz" class="avatar"><img src="https://avatars0.githubusercontent.com/u/23178663?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/manoa-kine-grindz">manoa-kine-grindz</a> on <a href="https://www.github.com">GitHub</a></p>
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/manoa-kine-grindz/manoa-kine-grindz.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/manoa-kine-grindz/manoa-kine-grindz.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
 </html>
