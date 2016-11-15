@@ -15,17 +15,20 @@ The landing page should look as such:
 Click on the top right word, "Account," to log in. The system uses UH-CAS for authentication so all students and faculty within the UH system should be able to log-in without having to create an account.
 
 ![](./images/logging.jpg)
-Logging in.
+<p style="font-size: 12px">Logging in.</p>
 
 Once logged in, users can view and edit their profile. However, it is currently in the process of being debugged and as such it does not work right now.
 
 ![](./images/profile.jpg)
-The blank page.
+<p style="font-size: 12px">The blank page.</p>
 
 Also, because the databases have not yet been implemented, the Menu page is also fairly empty and the home page after logging in is still blank.
 
 ![](./images/landing2.jpg)
+<p style="font-size: 12px">Home page after logging in.</p>
+<br>
 ![](./images/menu.jpg)
+<p style="font-size: 12px">Menu page.</p>
 
 There is a calendar page that will be maintained by admins and will allow people to see what type of food will be served today and in the coming future. As implementing the specials is not a high priority item right now, the calendar is also blank.
 
@@ -34,7 +37,7 @@ There is a calendar page that will be maintained by admins and will allow people
 Lastly, the Map page will show users where what food trucks are where. It will implement markers placed by the admins, but as admin privileges have not yet been implemented, it does not work. Also, the meteor package we used is outdated and does not work with the most recent build of meteor so we are currently finding a replacement.
 
 ![](./images/map.jpg)
-The URL bar was included to show that there is a page for the map.
+<p style="font-size: 12px">The URL bar was included to show that there is a page for the map.</p>
 
 ## Development
 #strugglez
