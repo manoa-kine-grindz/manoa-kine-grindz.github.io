@@ -1,6 +1,11 @@
 ## Introduction
 Manoa Kine Grindz is a reactive web-app that allows UH students to be able to quickly find what food is currently being served on campus.
 
+## Team
+<a href="https://mahoe7.github.io">Michael Hoe</a>
+<a href="https://kpk3.github.io">Keenan Kinimaka</a>
+<a href="https://cmakalen.github.io">Chad Makalena</a>
+
 ## GitHub
 Milestone 1: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/1
 Milestone 2: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/2
@@ -11,6 +16,8 @@ Clone the system over at https://github.com/manoa-kine-grindz/manoa-kine-grindz 
 ```
 meteor --settings ..config/settings.development.json
 ```
+
+Deployment doesn't work right now. Sad times in the Corn Puff Kingdom.
 
 ## Usage
 The landing page should look as such:
