@@ -7,7 +7,7 @@ Manoa Kine Grindz is a reactive web-app that allows UH students to be able to qu
 <a href="https://cmakalen.github.io">Chad Makalena</a><br>
 
 ## GitHub
-Milestone 1: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/1
+Milestone 1: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/1<br>
 Milestone 2: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/2
 
 ## Installation
