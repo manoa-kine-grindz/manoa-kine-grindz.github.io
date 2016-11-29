@@ -50,9 +50,13 @@ There is a calendar page that will be maintained by admins and will allow people
 
 ![](./images/calendar.jpg)
 
-There is a search for page that will allow the user to filter through all of the available restaurants and fast food places on campus according to ingredients and foods. This is currently a mockup.
+This is a search for page that will allow the user to filter through all of the available restaurants and fast food places on campus according to ingredients and foods. This is currently a mockup.
 
 ![](./images/searchformockup.jpg)
+
+This is an edit profile page that will allow the user to essentially modify their food preferences regarding ingredients, cuisines, or restaurants. This is currently a mockup.
+
+![](./images/editprofilemockup.jpg)
 
 Lastly, the Map page will show users where what food trucks are where. It will implement markers placed by the admins, but as admin privileges have not yet been implemented, it does not work. Also, the meteor package we used is outdated and does not work with the most recent build of meteor so we are currently finding a replacement.
 
