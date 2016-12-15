@@ -1,25 +1,11 @@
 ## Introduction
-Manoa Kine Grindz is a reactive web-app that allows UH students to be able to quickly find what food is currently being served on campus.
+Manoa Kine Grindz is a web-app that allows UH students to be able to quickly find what food is currently being served on campus.<br>
 
-## Team
-<a href="https://mahoe7.github.io">Michael Hoe</a><br>
-<a href="https://kpk3.github.io">Keenan Kinimaka</a><br>
-<a href="https://cmakalen.github.io">Chad Makalena</a><br>
+<a href="https://manoa-kine-grindz.github.io/">Visit website here.</a>
 
-## GitHub
-Milestone 1: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/1<br>
-Milestone 2: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/2
+## Guided Tour
+*Please note that this website is still under construction.*
 
-## Installation
-Clone the system over at https://github.com/manoa-kine-grindz/manoa-kine-grindz and run it on your computer using
-
-```
-meteor --settings ..config/settings.development.json
-```
-
-Deployment doesn't work right now. Sad times in the Corn Puff Kingdom.
-
-## Usage
 The landing page should look as such:
 
 ![](./images/landing1.jpg)
@@ -54,18 +40,29 @@ This is a search for page that will allow the user to filter through all of the 
 
 ![](./images/searchformockup.jpg)
 
-This is an edit profile page that will allow the user to essentially modify their food preferences regarding ingredients, cuisines, or restaurants. This is currently a mockup.
+This is an edit profile page that will allow the user to essentially modify their food preferences regarding ingredients, cuisines, or restaurants.
 
 ![](./images/editprofilemockup.jpg)
 
-Lastly, the Map page will show users where what food trucks are where. It will implement markers placed by the admins, but as admin privileges have not yet been implemented, it does not work. Also, the meteor package we used is outdated and does not work with the most recent build of meteor so we are currently finding a replacement.
 
-![](./images/map.jpg)
-<br>
-<sub style="text-align:center;">The URL bar was included to show that there is a page for the map.</sub>
+## GitHub
+Milestone 1: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/1<br>
+Milestone 2: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/2<br>
+Milestone 3: https://github.com/manoa-kine-grindz/manoa-kine-grindz/projects/3
+
+## Developer Installation
+Clone the system over at https://github.com/manoa-kine-grindz/manoa-kine-grindz and run it on your computer using
+
+```
+meteor --settings ..config/settings.development.json
+```
 
 ## Development
-#strugglez
+The team went through a lot of unfortunate snags, and could not decide on a direction to take with the website. However, hopefully we have created something that looks like it could be useful.
 
 ## Contact Us
-If you have any questions, shoot us an email at mahoe7@hawaii.edu
+Please check out our portfolios at these links:
+
+<a href="https://mahoe7.github.io">Michael Hoe</a><br>
+<a href="https://kpk3.github.io">Keenan Kinimaka</a><br>
+<a href="https://cmakalen.github.io">Chad Makalena</a><br>
